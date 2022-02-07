@@ -13,6 +13,5 @@ jobs:
     runs-on: windows-latest
 
     steps:
-    - uses: actions/checkout@v2
     - name: Git Commands
       run: mvn test -Dtest="firstClass"
